@@ -1,0 +1,43 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+    font-family: 'DM Serif Display' !important;
+
+}
+
+.navbar-brand
+{
+    font-family: 'DM Serif Display' !important; 
+}
+
+.nav-link
+{ 
+    font-family: 'DM Serif Display' !important; 
+}
+
+.navbar-nav
+{ 
+    font-family: 'DM Serif Display' !important; 
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+
+p
+{
+    text-align: left;
+}
