@@ -8,9 +8,9 @@ pickleshare==0.7.5
 sklearn==0.0
 scikit-image==0.17.2
 scikit-learn==0.23.2
-scipy @ file:///opt/concourse/worker/volumes/live/5de63de1-ebe3-42a0-667e-ce551df4774f/volume/scipy_1592940143707/work
-numpy @ file:///opt/concourse/worker/volumes/live/3f9886a9-9d2f-4d0a-7e31-acf5536b90f1/volume/numpy_and_numpy_base_1596234665264/work
-joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1593624380152/work
+scipy==1.5.0
+numpy==1.18.5
+joblib==0.16.0
 threadpoolctl==2.1.0
 Cython==0.29.13
 matplotlib==3.1.1
