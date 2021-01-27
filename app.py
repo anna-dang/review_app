@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Load models
 flag_model = pickle.load(open('sgd_binary.pickle','rb'))
-#rank_model = pickle.load(open('./models/------.pickle','rb'))
+rank_model = pickle.load(open('sgd_5.pickle','rb'))
 
 # Map the route (end of URL) to each function
 @app.route('/')
@@ -25,9 +25,7 @@ def predict():
 
         # Predict
         flagged = flag_model.predict([review])
-        #rank = rank_model.predict([review])
-
-        rank = flagged
+        rank = rank_model.predict([review])
 
         if flagged == 'flag':
             return render_template("flag_result.html", pred = rank)
