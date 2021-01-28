@@ -30,7 +30,7 @@ Negative reviews can largely impact the booking decisions of future guests. For 
 
 ### Heroku App
 
-Follow this link to connect to the Hotel Review Classifier [Heroku App](https://dangela-review-app.herokuapp.com/predict) developed from this project. The app will function as a demonstration of how the communication tool will perform.
+Follow this link to connect to the Hotel Review Classifier [Heroku App](https://dangela-review-app.herokuapp.com/predict) developed from this project (app may take a few moments to load). The app will function as a demonstration of how the communication tool will perform.
 
 Input a hotel review and click 'Classify'. The app will return a 'flag' or 'pass' status. Meaning: whether the review is 'flagged' for immediate guest recovery or if it 'passes' and can be left for regular attention. The app also returns a predicted review numerical score.
 
@@ -53,7 +53,7 @@ Front-End App: HTML, CSS, Boostrap
 
 Back-End APP: Python, Flask
 
-Classification: Sci-Kit Learn pipelines
+Classification: Sci-Kit Learn NLP pipelines
 
 ---
 
