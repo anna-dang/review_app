@@ -10,6 +10,10 @@
         <!-- alternative themes at https://bootswatch.com/ -->
         <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css" rel="stylesheet">
         
+        <!-- header font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
         <!-- modifications to bootstrap -->
         <link href="../static/styles.css" rel="stylesheet"> 
 
@@ -18,24 +22,15 @@
 
     <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-            <a class="navbar-brand" href="/">Hotel Review Classifier</a>
-            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" 
-            class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar">
-                 <!--<ul class="nav nav-tabs ml-auto mt-2">
-                    <li class="nav-item">
-                      <a class="nav-link"" data-toggle="tab" href="/">Classify</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="/about">About</a>
-                    </li>
-                </ul> -->
-                   
+            <a class="navbar-brand" style = "font-family: 'Montserrat', sans-serif; font-size: 30px; font-weight: 600"
+                    href="/" >Hotel Review Classifier</a>
                     <ul class="navbar-nav ml-auto mt-2">
-                        <li class="nav-item"><a class="nav-link" href="/">Classify</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" 
+                            style="font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: 500"
+                            href="/">Classify</a></li>
+                        <li class="nav-item"><a class="nav-link" 
+                            style="font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: 500"
+                            href="/about">About</a></li>
                     </ul>
             </div>
         </nav>
@@ -47,8 +42,7 @@
 
         <footer class="small text-center text-muted">
            Made by Anna D'Angela for Flatiron School. View full analysis on 
-           <a href="https://github.com/anna-dang/mod05-capstone-NLP">GitHub</a>. 
-           Go to <a href="/">Classify</a>. Go to <a href="/about">About</a>.
+           <a href="https://github.com/anna-dang/mod05-capstone-NLP">GitHub</a>.
         </footer>
         </br>
     </body>

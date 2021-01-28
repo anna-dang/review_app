@@ -34,7 +34,13 @@ Follow this link to connect to the Hotel Review Classifier [Heroku App](https://
 
 Input a hotel review and click 'Classify'. The app will return a 'flag' or 'pass' status. Meaning: whether the review is 'flagged' for immediate guest recovery or if it 'passes' and can be left for regular attention. The app also returns a predicted review numerical score.
 
-<img alt="gif of how to use app" src="./images/demo.gif" width="600"/>
+#### Positive Demo
+
+<img alt="gif of how to use app" src="./images/pass.gif" width="600"/>
+
+#### Negative Demo
+
+<img alt="gif of how to use app" src="./images/flag.gif" width="600"/>
  
 ---
 
