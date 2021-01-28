@@ -27,17 +27,11 @@ main
     overflow-x: auto;
 
     /* center contents */
-    text-align: center;
+    text-align: left;
 }
 
 main img
 {
     /* constrain images on small screens */
     max-width: 100%;
-}
-
-
-p
-{
-    text-align: left;
 }

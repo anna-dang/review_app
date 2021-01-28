@@ -32,7 +32,7 @@ Negative reviews can largely impact the booking decisions of future guests. For 
 
 Follow this link to connect to the Hotel Review Classifier [Heroku App](https://dangela-review-app.herokuapp.com/predict) developed from this project. The app will function as a demonstration of how the communication tool will perform.
 
-Input a hotel review and click predict. The app will return a 'flag' or 'pass' status. Meaning: whether the review is 'flagged' for immediate guest recovery or if it 'passes' and can be left for regular attention. The app also returns a predicted review numerical score.
+Input a hotel review and click 'Classify'. The app will return a 'flag' or 'pass' status. Meaning: whether the review is 'flagged' for immediate guest recovery or if it 'passes' and can be left for regular attention. The app also returns a predicted review numerical score.
 
 <img alt="gif of how to use app" src="./images/demo.gif" width="600"/>
  
