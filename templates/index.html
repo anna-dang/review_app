@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block title %}
-    Index
+    CLASSIFY
 {% endblock %}
 
 {% block main %}
@@ -9,9 +9,12 @@
         <form action="/predict" method="post">
             <div class="form-group">
                 <input autocomplete="off" autofocus class="form-control" 
-                        name="in_review" placeholder="Input a hotel review..." type="text">
+                        name="in_review" placeholder="Input a hotel review..." 
+                        type="text" align="center">
             </div>
+            <div align="center">
             <button class="btn btn-primary" type="submit">Classify</button>
+            </div>
         </form>
     </body>
     

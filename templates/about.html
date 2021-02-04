@@ -1,19 +1,19 @@
 {% extends "layout.html" %}
 
 {% block title %}
-    About
+    ABOUT
 {% endblock %}
 
 {% block main %}
 
 <body>
-    <h3>About</h3>
+    <h3 style="text-align:center;">About</h3>
     <p> This app is a demonstration of the classification 
         model I built for my final project in Flatiron's Data Science Bootcamp.
         Please view my <a href="https://github.com/anna-dang/mod05-capstone-NLP">full analysis</a> and my
         <a href='https://docs.google.com/presentation/d/1RRYsUs9rEWzMNWBq15tbA3YPxuJFMx6x2mFG-c_z_z4/present?slide=id.gb40562cf50_0_68'>presentation</a>.
     </br>
-    <h3>Objective</h3>
+    <h3 style="text-align:center;">Objective</h3>
     <p>For the hospitality industry, reputation is everything. 
         Guests book based on online presence and word-of-mouth.
         Negative reviews can largely impact the booking decisions of future guests.
@@ -21,21 +21,23 @@
         Finding and attending to an unhappy guest before they post a review can change their experience, and their score.</p>
     <p><b>Business Problem</b> - Reach dissatisfied guests quickly to increase customer retention.</p>
     <p><b>Business Solution</b> - Build a communication management tool to flag dissatisfied guests for rapid recovery by staff.</p>
-    <h3>How to Use</h3>
+    <h3 style="text-align:center;">How to Use</h3>
     <p>This app is a demonstration of how the communication tool will perform. 
         First, input a hotel review on the main page and click 'Classify'. 
         The app will return a 'flag' or 'pass' status, 
         indicating whether the review is <b>'flagged' for immediate guest recovery</b> or if it <b>'passes' and can be left for regular attention</b>. 
         The app also returns a predicted numerical rating. View the code for this app <a href="https://github.com/anna-dang/review_app">here</a>.</p>
     </br>
-    <p style="text-align:center;">Questions or comments? Connect with me!</p>
-    <a href="https://linkedin.com/in/anna-dangela" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="anna-dangela" height="30" width="40" /></a>
-    <a href="https://github.com/anna-dang" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="anna-dang" height="30" width="40" /></a>
-    <a href="https://twitter.com/_dangelaa" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="_dangelaa" height="30" width="40" /></a>
-    <a href="https://medium.com/@annadangela" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@annadangela" height="30" width="40" /></a>
-    </br>
-    </br>
-    <p style="text-align:center;">Thanks for stopping by!</p>
+    <div align="center">
+        <p>Questions or comments? Connect with me!</p>
+            <a href="https://linkedin.com/in/anna-dangela" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="anna-dangela" height="30" width="40"></a>
+            <a href="https://github.com/anna-dang" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="anna-dang" height="30" width="40"></a>
+            <a href="https://twitter.com/_dangelaa" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="_dangelaa" height="30" width="40"></a>
+            <a href="https://medium.com/@annadangela" target="blank"><img  src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@annadangela" height="30" width="40"></a>
+        </br>
+        </br>
+        <p >Thanks for stopping by!</p>
+    </div>
 </body>
 
 {% endblock %}
